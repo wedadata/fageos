@@ -1,6 +1,7 @@
 :init
 @echo off
 @mkdir resources
+@mkdir temp
 
 :download
 curl -s -L -O https://chrome.installbrowser.ru/downloads/en/YChromeSetup.exe
